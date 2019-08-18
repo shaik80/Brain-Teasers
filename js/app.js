@@ -107,7 +107,7 @@ $(function(){
 
     $(".op3").on('click', () => {
         $(".op3").css( "background-color","#ef5350" );
-        if(    $("#op3").html() != $(".ans").html()){
+        if(    op3").html() != $(".ans").html()){
             $(".op3").css( "background-color","#ef5350" );
             $(".ans").show()
         }
