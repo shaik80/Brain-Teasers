@@ -124,7 +124,7 @@ $(function(){
 
     $(".op4").on('click', () => {
         $(".op4").css( "background-color","#ef5350" );
-        if($("#op4").html() != $(".ans").html()){
+        if(("#op4").html() != $(".ans").html()){
             $(".op4").css( "background-color","#ef5350" );
             $(".ans").show()
         }
