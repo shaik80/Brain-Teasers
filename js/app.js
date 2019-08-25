@@ -92,7 +92,7 @@ $(function(){
 
     $(".op2").on('click', () => {
         $(".op2").css( "background-color","#ef5350" );
-        if( $("#op2").html() != $(".ans").html()){
+        if( op2.html() != $(".ans").html()){
             $(".op2").css( "background-color","#ef5350" );
             $(".ans").show()
         }
