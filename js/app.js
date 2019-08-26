@@ -77,7 +77,7 @@ $(function(){
 
 
     $(".op1").on('click', () => {
-        if($("#op1").html() != $(".ans").html()){
+        if( op1.html() != $(".ans").html()){
             $(".op1").css( "background-color","#ef5350" );
             $(".ans").show()
         }
