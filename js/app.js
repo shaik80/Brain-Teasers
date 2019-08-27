@@ -76,7 +76,7 @@ $(function(){
 
 
     $(".op1").on('click', () => {
-        if($("#op1").html() != $(".ans").html()){
+        if( op1.html() != $(".ans").html()){
             $(".op1").css( "background-color","#ef5350" );
             $(".ans").show()
         }
@@ -91,7 +91,7 @@ $(function(){
 
     $(".op2").on('click', () => {
         $(".op2").css( "background-color","#ef5350" );
-        if( $("#op2").html() != $(".ans").html()){
+        if( op2.html() != $(".ans").html()){
             $(".op2").css( "background-color","#ef5350" );
             $(".ans").show()
         }
@@ -106,7 +106,7 @@ $(function(){
 
     $(".op3").on('click', () => {
         $(".op3").css( "background-color","#ef5350" );
-        if(    $("#op3").html() != $(".ans").html()){
+        if(    op3.html() != $(".ans").html()){
             $(".op3").css( "background-color","#ef5350" );
             $(".ans").show()
         }
@@ -123,7 +123,7 @@ $(function(){
 
     $(".op4").on('click', () => {
         $(".op4").css( "background-color","#ef5350" );
-        if($("#op4").html() != $(".ans").html()){
+        if( op4.html() != $(".ans").html()){
             $(".op4").css( "background-color","#ef5350" );
             $(".ans").show()
         }
