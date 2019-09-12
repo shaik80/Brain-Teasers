@@ -14,8 +14,7 @@ $(function(){
     start(index);
     $(".score").html(localStorage.getItem("score"))
 
-
-    // strat timer
+    // start timer
         function startTimer() {
         ++totalSeconds;
         hour = Math.floor(totalSeconds /3600);
