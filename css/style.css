@@ -28,7 +28,17 @@
 }
 
 .lg-profile-img{
-    height: 15em;
-    width: 15em;
-    border-style:solid
+    height: 10em;
+    width: 10em;
+    border-style:solid;
+}
+.info-name{
+    border-style: solid;
+    border-radius: 50px;
+    padding: 1em;
+    width: 10em;
+}
+.info-time{
+    font-weight: 700;
+    font-size: 2em;
 }
