@@ -1,5 +1,5 @@
 # Brain-Teaser
-It is an responsive web application which is been developed from the basic concepts of [Bootstrap](https://getbootstrap.com).
+It is an responsive web application which is been developed from the basic concepts of HTML,CSS,[Bootstrap](https://getbootstrap.com)and[Jquery](https://jquery.com).
 
 This application provides the user an opportunity to sharpen their web development knowledge in the form of a quiz that consist of diffent categories to select from based upon their interest.
 
