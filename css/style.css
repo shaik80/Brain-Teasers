@@ -2,6 +2,7 @@
 :root{
     --primary-color:#28c3d5;
     --basic-color:#ffffff;
+    --secoundry-color:#AEE7E8;
     --quit-color: #EF5350;
 }
 .app-name{
@@ -67,4 +68,11 @@
     color: #000000;
     background-color: #ef5350e0;
     
+}
+.Option{
+    background-color: var(--secoundry-color);
+    border-radius: 50em;
+}
+.option-name{
+    font-weight: 600;
 }
