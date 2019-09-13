@@ -1,1 +1,1 @@
-# Brain-Teasers
+# quiz-mern
