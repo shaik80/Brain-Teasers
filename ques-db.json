@@ -60,14 +60,14 @@
                 "answer": ""
             },
     "q7": {
-                "question": "",
+                "question": "Which of the following attribute is used to group elements?",
                 "options": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "item",
+                    "itemprop",
+                    "itemcheck",
+                    "itemgroup"
                 ],
-                "answer": ""
+                "answer": "item"
             },
     "q8": {
                 "question": "",
@@ -80,14 +80,14 @@
                 "answer": ""
             },
     "q9": {
-                "question": "",
+                "question": "Which of the following input control is used for input fields that should contain an URL address in Web Form 2.0?",
                 "options": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "email",
+                    "URL",
+                    "number",
+                    "range"
                 ],
-                "answer": ""
+                "answer": "URL"
             },
     "q10": {
                 "question": "",
