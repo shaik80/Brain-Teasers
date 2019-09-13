@@ -33,7 +33,7 @@
                 "question": "Which of the following jQuery method removes an attribute from each of the matched elements?",
                 "options": [
                     "deleteAttr( name )",
-                    " removeAttr( name )",
+                    "removeAttr( name )",
                     "removeAttribute( name )",
                     "None of the above."
                 ],
