@@ -1,21 +1,63 @@
-.QNo{   
-    position: absolute;
+.QNo{ 
+    margin-left: 20px;  
     width: 600px;
     height: 85px;
     font-family: sans-serif;
-    font-style: normal;
     font-weight: 300;
     font-size: 52px;
     line-height: 62px;
-    text-align: center;
     color: #28C3D4;
     
     }
     .question{
-    position: relative;
+    margin-left: 20px;
     width: 1164px;
     height: 90px;
     font-family: sans-serif;
     font-size: 32px;
     line-height: 48px;
     }
+#username{
+margin-top: 20px;
+margin-left: 22%;
+width: 600px;
+height: 85px;
+font-family: sans-serif;
+font-weight: bold;
+font-size: 62px;
+line-height: 74px;
+text-align: center;
+color: #000000;
+}
+.bootomMenu{
+    margin-bottom: 0%;
+    /* width: 1280px;*/
+    height: 88px;
+    background: #28C3D4;
+}
+.timer{
+width: 272px;
+height: 70px;
+font-family: sans-serif;
+font-weight: bold;
+font-size: 60px;
+line-height: 74px;
+text-align: center;
+color: #FFFFFF;
+}
+.quit{
+width: 219px;
+height: 75px;
+background: #EF5350;
+border-radius: 50px;
+}
+.quitText{
+width: 153px;
+height: 70px;
+font-family: sans-serif;
+font-weight: bold;
+font-size: 63px;
+line-height: 74px;
+text-align: center;
+color: #FFFFFF;
+}
