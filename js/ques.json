@@ -40,64 +40,64 @@
                 "answer": "removeAttr( name )"
             },
     "q5": {
-                "question": "",
+                "question": " Which of the following type of variable takes precedence over other if names are same?",
                 "options": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "global variable",
+                    "local variable",
+                    "Both of the above",
+                    "None of the above."
                 ],
-                "answer": ""
+                "answer": "local variable"
             },
     "q6": {
-                "question": "",
+                "question": "Which built-in method returns the calling string value converted to upper case?",
                 "options": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "toUpperCase()",
+                    "toUpper()",
+                    "changeCase(case)",
+                    "None of the above."
                 ],
-                "answer": ""
+                "answer": "toUpperCase()"
             },
     "q7": {
-                "question": "",
+                "question": "Which of the following attribute is used to group elements?",
                 "options": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "item",
+                    "itemprop",
+                    "itemcheck",
+                    "itemgroup"
                 ],
-                "answer": ""
+                "answer": "item"
             },
     "q8": {
-                "question": "",
+                "question": "Which of the following function of Array object represents the source code of an object?",
                 "options": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "toSource()",
+                    "splice()",
+                    "oString()",
+                    "unshift()"
                 ],
-                "answer": ""
+                "answer": "toSource()"
             },
     "q9": {
-                "question": "",
+                "question": "Which of the following input control is used for input fields that should contain an URL address in Web Form 2.0?",
                 "options": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "email",
+                    "URL",
+                    "number",
+                    "range"
                 ],
-                "answer": ""
+                "answer": "URL"
             },
     "q10": {
-                "question": "",
+                "question": "Which of the following function of String object causes a string to be italic, as if it were in an <i> tag?",
                 "options": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "fixed()",
+                    "fontcolor()",
+                    "fontsize()",
+                    "italics()"
                 ],
-                "answer": ""
+                "answer": "italics()"
             }
 
 
