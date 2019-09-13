@@ -26,6 +26,9 @@
     font-weight: 600;
     font-family: Roboto,sans-serif;
 }
-.instruction-brief-info{
-    
+
+.lg-profile-img{
+    height: 15em;
+    width: 15em;
+    border-style:solid
 }
