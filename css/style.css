@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins|Roboto&display=swap');
 :root{
     --primary-color:#28c3d5;
+    --basic-color:#ffffff;
+    --quit-color: #EF5350;
 }
 .app-name{
     font-family: Roboto,sans-serif;    
@@ -41,4 +43,26 @@
 .info-time{
     font-weight: 700;
     font-size: 2em;
+}
+.ques-fixed-bottom{
+    background-color: var(--primary-color)
+}
+.fa-icon{
+    font-size: 3em;
+    color: var(--basic-color);
+}
+.time
+{
+    font-size: 2em;
+    color: var(--basic-color)
+}
+.Quit{
+    background-color: var(--quit-color);
+    border-radius: 50em;
+    
+}
+.Quit:hover{
+    transition: all 2s;
+    background-color: #ef5350e0;
+    
 }
