@@ -1,3 +1,5 @@
+$(".ans").hide()
+let score = 0;
 let time =$("#time").html()
 totalSeconds = 0;
 let socre = 0;
@@ -38,6 +40,7 @@ function start(index){
     op2.html(questions["q"+index].options[1]);
     op3.html(questions["q"+index].options[2]);
     op4.html(questions["q"+index].options[3]);
+    $(".ans").html(questions["q"+index].answer)
 })
 
 }
@@ -61,11 +64,13 @@ $("#next").on('click', () => {
     let a =parseInt(ques_no.html())+1
     ques_no.html(a)
     start(a);
+    $(".ans").hide()
     event_pointer_auto()
     if(a == 11)
     {
         window.location.replace("../index.html");
     }
+    
 })
 $("#prev").on('click', () => {    
     
@@ -89,64 +94,59 @@ function eventpointer(){
 
 }
 $(".op1").on('click', () => {
-    $.getJSON('js/ques.json',function(json){
-        questions = json;
-    Object.keys(questions).length;       
-    if(    $(".op1").html() == questions["q"+index].options[0]){
+    if($("#op1").html() != $(".ans").html()){
         $(".op1").css( "background-color","#ef5350" );
+        $(".ans").show()
     }
     else{
     $(".op1").css( "background-color","#66BB6A" );
-     }
+    score = score+10
+    
+    $(".ans").show()     
+}
      event_pointer_none()
-})
-
-
 })
 $(".op2").on('click', () => {
     
     $(".op2").css( "background-color","#ef5350" );
-    $.getJSON('js/ques.json',function(json){
-        questions = json;
-    Object.keys(questions).length;       
-    if( $(".op2").html() == questions["q"+index].answer){
+    if( $("#op2").html() != $(".ans").html()){
         $(".op2").css( "background-color","#ef5350" );
+        $(".ans").show()
     }
     else{
     $(".op2").css( "background-color","#66BB6A" );
-     }
+    $(".ans").show()
+    score = score+10
+}
      event_pointer_none()
-})
-  
 })
 $(".op3").on('click', () => {
     $(".op3").css( "background-color","#ef5350" );
-    $.getJSON('js/ques.json',function(json){
-        questions = json;
-    Object.keys(questions).length;       
-    if(    $(".op3").html() == questions["q"+index].answer){
+    if(    $("#op3").html() != $(".ans").html()){
         $(".op3").css( "background-color","#ef5350" );
+        $(".ans").show()
     }
     else{
     $(".op3").css( "background-color","#66BB6A" );
-     }
+    $(".ans").show()     
+    score = score+10
+}
      event_pointer_none()
-})
+
 })
 $(".op4").on('click', () => {
     $(".op4").css( "background-color","#ef5350" );
-    $.getJSON('js/ques.json',function(json){
-        questions = json;
-    Object.keys(questions).length;       
-    if(    $(".op4").html() == questions["q"+index].answer){
+    if($("#op4").html() != $(".ans").html()){
         $(".op4").css( "background-color","#ef5350" );
+        $(".ans").show()
     }
     else{
     $(".op4").css( "background-color","#66BB6A" );
+    $(".ans").show()
+    score = score+10
      }
      event_pointer_none()
 })
-})  
 
     $("#submit-name").on('click', () => {
             console.log(localStorage.setItem("name", $(".info-name").val()))
