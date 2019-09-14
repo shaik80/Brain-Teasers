@@ -21,7 +21,7 @@ $(function(){
         hour = Math.floor(totalSeconds /3600);
         minute = Math.floor((totalSeconds - hour*3600)/60);
         seconds = totalSeconds - (hour*3600 + minute*60);
-        // $("#hour").html(hour);
+
         $("#min").html(minute);
         $("#sec").html(seconds);
         if($("#min").html() == 5 && $("#sec").html() == 0){
@@ -75,17 +75,6 @@ $(function(){
     
     })
 
-    // $("#prev").on('click', () => {    
-    //     let a =parseInt(ques_no.html())-1
-    //     ques_no.html(a)
-    //     start(a);
-    //     event_pointer_auto()
-    //     if(a == 0)
-    //     {
-    //         window.location.replace("./index.html");
-    //     }
-    
-    // })
 
     $(".op1").on('click', () => {
         if($("#op1").html() != $(".ans").html()){
