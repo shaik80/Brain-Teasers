@@ -55,8 +55,11 @@
 }
 .time
 {
-    font-size: 2em;
+    font-size: 27px;
     color: var(--basic-color)
+}
+.totaltime{
+    font-size: .5em;
 }
 .Quit{
     background-color: var(--quit-color);

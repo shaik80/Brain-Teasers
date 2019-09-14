@@ -27,21 +27,21 @@
 
         <div class="container-fluid mt-4 ">
             <h1 class="app-name text-center">Arab Boss</h1>
-            <h3 class="instruction-heading mt-5"><span>Question 1/10</span></h3>
-                <p>What holds school supplies and children also carry them on their backs?</p>
+            <h3 class="instruction-heading mt-5"><span>Question</span><span id="ques_no"></span><span>/10</span></h3>
+                <p id="question">What holds school supplies and children also carry them on their backs?</p>
                 
                 <div class="container-fluid row mt-5">
-                    <div class="col-md-5 col-sm-12 mt-1 mb-1 mr-5 p-4 Option">
-                        <span class="ml-4 option-name">A</span><span class="option ml-4">boxes</span>
+                    <div class="col-md-5 col-sm-12 mt-1 mb-1 mr-5 p-4 Option op1">
+                        <span class="ml-4 option-name">A</span><span class="option ml-4" id="op1">boxes</span>
                     </div>
-                    <div class="col-md-5 col-sm-12 mt-1 mb-1 p-4 mr-5 Option">
-                        <span class="ml-4 option-name">B</span><span class="option ml-4"> paper bags</span>
+                    <div class="col-md-5 col-sm-12 mt-1 mb-1 p-4 mr-5 Option op2">
+                        <span class="ml-4 option-name">B</span><span class="option ml-4" id="op2"> paper bags</span>
                     </div>
-                    <div class="col-md-5 col-sm-12 mt-1 mb-1 mr-5 p-4 Option">
-                        <span class="ml-4 option-name">C</span><span class="option ml-4">boxes</span>
+                    <div class="col-md-5 col-sm-12 mt-1 mb-1 mr-5 p-4 Option op3">
+                        <span class="ml-4 option-name">C</span><span class="option ml-4" id="op3">boxes</span>
                     </div>
-                    <div class="col-md-5 col-sm-12 mt-1 mb-1 p-4 mr-5 Option">
-                        <span class="ml-4 option-name">D</span><span class="option ml-4">boxes</span>
+                    <div class="col-md-5 col-sm-12 mt-1 mb-1 p-4 mr-5 Option op4">
+                        <span class="ml-4 option-name">D</span><span class="option ml-4" id="op4">boxes</span>
                     </div>
                 </div>
         </div>
@@ -49,10 +49,12 @@
         <div class="fixed-bottom ques-fixed-bottom row">
             <div class="col-6 row ml-3">
                 <div class="col-8">
-                        <i class="fas fa-angle-left fa-icon"></i>
+                        <i class="fas fa-angle-left fa-icon" id="prev"></i>
                 </div>
-                <div class="col-4">
-                    <span class="time">5:00</span>
+                <div class="col-4" class="totaltime">
+                    <span class="time" id="min"></span>
+                    <span class="time">:</span>
+                    <span class="time" id="sec"></span>
                 </div>
 
             </div>
@@ -61,7 +63,7 @@
                     <a class="text-decoration-none time Quit pl-3 pr-3" href="">Quit</a>
                 </div>
                 <div class="col-4">
-                    <i class="fas fa-angle-right fa-icon next"></i>
+                    <i class="fas fa-angle-right fa-icon" id="next"></i>
                 </div>
                 </div>
         </div>
