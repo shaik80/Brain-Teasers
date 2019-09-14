@@ -82,3 +82,9 @@
 .ans{
     font-weight: bold;
 }
+.score-box{
+    /* width: 653px;
+    height: 557px; */
+    background: #28C3D4;
+    border-radius: 70px;
+}

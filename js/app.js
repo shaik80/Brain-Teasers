@@ -6,7 +6,7 @@ let socre = 0;
 let question = $("#question");
 let ques_no = $("#ques_no");
 let op1 =$("#op1");
-let op2 =$("#op2");
+let op2 =$("#op2")
 let op3 =$("#op3");
 let op4 =$("#op4");
 let index = 1;
@@ -68,7 +68,8 @@ $("#next").on('click', () => {
     event_pointer_auto()
     if(a == 11)
     {
-        window.location.replace("../index.html");
+        window.location.replace("../score.html");
+        $("#score").html(score)
     }
     
 })
@@ -149,7 +150,7 @@ $(".op4").on('click', () => {
 })
 
 $("#submit-name").on('click', () => {
-        console.log(localStorage.setItem("name", $(".info-name").val()))
+        localStorage.setItem("name", $(".info-name").val())
         window.location.replace("../question.html");
 
 })
