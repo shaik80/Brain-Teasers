@@ -14,7 +14,7 @@ let app;
 let step = ques_no.html(index);
 let stoptime = setInterval(startTimer, 1000);
 start(index);
-
+$(".score").html(localStorage.getItem("score"))
 function startTimer() {
     ++totalSeconds;
     hour = Math.floor(totalSeconds /3600);
@@ -31,7 +31,8 @@ function startTimer() {
   } 
 function start(index){
    $("#user-name").html(localStorage.getItem("name"))
-    $.getJSON('js/ques.json',function(json){
+    
+   $.getJSON('js/ques.json',function(json){
         questions = json;
     Object.keys(questions).length;        
     // console.log("q"+index)
@@ -102,7 +103,7 @@ $(".op1").on('click', () => {
     else{
     $(".op1").css( "background-color","#66BB6A" );
     score = score+10
-    
+    localStorage.setItem("score", score)
     $(".ans").show()     
 }
      event_pointer_none()
@@ -118,6 +119,7 @@ $(".op2").on('click', () => {
     $(".op2").css( "background-color","#66BB6A" );
     $(".ans").show()
     score = score+10
+    localStorage.setItem("score", score)
 }
      event_pointer_none()
 })
@@ -131,6 +133,7 @@ $(".op3").on('click', () => {
     $(".op3").css( "background-color","#66BB6A" );
     $(".ans").show()     
     score = score+10
+    localStorage.setItem("score", score)
 }
      event_pointer_none()
 
@@ -145,6 +148,7 @@ $(".op4").on('click', () => {
     $(".op4").css( "background-color","#66BB6A" );
     $(".ans").show()
     score = score+10
+    localStorage.setItem("score", score)
      }
      event_pointer_none()
 })
@@ -153,4 +157,13 @@ $("#submit-name").on('click', () => {
         localStorage.setItem("name", $(".info-name").val())
         window.location.replace("../question.html");
 
+})
+$("#End_game").on('click', () => {
+    localStorage.removeItem("score")
+    localStorage.removeItem("name")
+    window.location.replace("../index.html");
+})
+$("#Play_again").on('click', () => {
+    localStorage.removeItem("score")
+    window.location.replace("../question.html");    
 })
