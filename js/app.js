@@ -148,8 +148,8 @@ $(".op4").on('click', () => {
      event_pointer_none()
 })
 
-    $("#submit-name").on('click', () => {
-            console.log(localStorage.setItem("name", $(".info-name").val()))
-            window.location.replace("../question.html");
+$("#submit-name").on('click', () => {
+        console.log(localStorage.setItem("name", $(".info-name").val()))
+        window.location.replace("../question.html");
 
-    })
+})
