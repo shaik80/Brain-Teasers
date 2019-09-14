@@ -222,84 +222,84 @@
                 "answer": "stopImmediatePropagation( )"
             },
       "q23": {
-                "question": "",
+                "question": "Which feature of the OOPS gives the concept of reusability?",
                 "options": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "Abstraction",
+                    "Encapsulation",
+                    "Inheritance",
+                    "None of the above."
                 ],
-                "answer": ""
+                "answer": "Inheritance"
             },
      "q24": {
-                "question": "",
+                "question": "Choose the option not applicable for the constructor.",
                 "options": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "Cannot be called explicitly",
+                    "Cannot be overloaded",
+                    "Cannot be overridden",
+                    "None of the above"
                 ],
-                "answer": ""
+                "answer": "Cannot be overridden"
             },
     "q25": {
-                "question": "",
+                "question": "Which of the following is not the keyword in C++?",
                 "options": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "volatile",
+                    "friend",
+                    "extends",
+                    "this"
                 ],
-                "answer": ""
+                "answer": "extends"
             },
     "q26": {
-                "question": "",
+                "question": "Minimum number of moves required to solve a Tower of Hanoi puzzle is",
                 "options": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "2n^2",
+                    "2^(n-1)",
+                    "2^n - 1",
+                    "2n - 1"
                 ],
-                "answer": ""
+                "answer": "2^n - 1"
             },
      "q27": {
-                "question": "",
+                "question": "Apriory algorithm analysis does not include −",
                 "options": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "Time Complexity",
+                    "Space Complexity",
+                    "Program Complexity",
+                    "None of the above!"
                 ],
-                "answer": ""
+                "answer": " Program Complexity"
             },
      "q28": {
-                "question": "",
+                "question": "Heap is an example of",
                 "options": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "complete binary tree",
+                    "spanning tree",
+                    "sparse tree",
+                    "binary search tree"
                 ],
-                "answer": ""
+                "answer": "complete binary tree"
             },
       "q29": {
-                "question": "",
+                "question": " Linked list search complexity is",
                 "options": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "Ο(1)",
+                    "Ο(n)",
+                    "Ο(log n)",
+                    "Ο(log log n)"
                 ],
-                "answer": ""
+                "answer": "Ο(n)"
             },
       "q30": {
-                "question": "",
+                "question": " In a min-heap:",
                 "options": [
-                    "",
-                    "",
-                    "",
-                    ""
+                    "parent nodes have values greater than or equal to their childs",
+                    "parent nodes have values less than or equal to their childs",
+                    "both statements are true",
+                    "both statements are wrong"
                 ],
-                "answer": ""
+                "answer": "parent nodes have values greater than or equal to their childs"
             },
       "q31": {
                 "question": "",
