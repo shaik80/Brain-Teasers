@@ -62,6 +62,21 @@ $("#prev").on('click', () => {
     }
     
 })
+function event_pointer_none(){
+    $(".op1").css("pointerEvents" , "none");
+    $(".op2").css("pointerEvents" , "none");
+    $(".op3").css("pointerEvents" , "none");
+    $(".op4").css("pointerEvents" , "none");
+}
+function event_pointer_auto(){
+    $(".op1").css("pointerEvents" , "auto");
+    $(".op1").css( "background-color","#ef5350" );
+    $(".op2").css("pointerEvents" , "auto");
+    $(".op1").css( "background-color","#ef5350" );
+    $(".op3").css("pointerEvents" , "auto");
+    $(".op1").css( "background-color","#ef5350" );
+    $(".op4").css("pointerEvents" , "auto");
+}
 function eventpointer(){
     $(".op1").css("pointerEvents" , "none");
     $(".op2").css("pointerEvents" , "none");
@@ -69,30 +84,21 @@ function eventpointer(){
     $(".op4").css("pointerEvents" , "none");
 }
 $(".op1").on('click', (v) => {
-    $(".op1").css( "background-color","red" );
-    $(".op2").css("pointerEvents" , "none");
-    $(".op3").css("pointerEvents" , "none");
-    $(".op4").css("pointerEvents" , "none");
+    $(".op1").css( "background-color","#ef5350" );
+    event_pointer_none()
+
 })
 $(".op2").on('click', (v) => {
-    $(".op2").css( "background-color","red" );
-    $(".op1").css("pointerEvents" , "none");
-    $(".op3").css("pointerEvents" , "none");
-    $(".op4").css("pointerEvents" , "none");
+    $(".op2").css( "background-color","#ef5350" );
+    event_pointer_none()
 })
 $(".op3").on('click', (v) => {
-    $(".op3").css( "background-color","red" );
-    $(".op1").css("pointerEvents" , "none");
-    $(".op2").css("pointerEvents" , "none");
-    
-    $(".op4").css("pointerEvents" , "none");
+    $(".op3").css( "background-color","#ef5350" );
+    event_pointer_none()
 })
 $(".op4").on('click', (v) => {
-    $(".op4").css( "background-color","red" );
-    $(".op1").css("pointerEvents" , "none");
-    $(".op2").css("pointerEvents" , "none");
-    $(".op3").css("pointerEvents" , "none");
-    
+    $(".op4").css( "background-color","#ef5350" );
+    event_pointer_none()    
 })  
     
     // let score_board = document.getElementById("socre_no");
