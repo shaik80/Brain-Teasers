@@ -27,7 +27,7 @@ $(function(){
         if($("#min").html() == 5 && $("#sec").html() == 0){
             clearInterval(stoptime);
             alert("time out");
-            window.location.replace("../index.html");   
+            window.location.replace("./index.html");   
         }
     }
 
@@ -69,7 +69,7 @@ $(function(){
         event_pointer_auto()
         if(a == 11)
         {
-            window.location.replace("../score.html");
+            window.location.replace("./score.html");
             $("#score").html(score)
         }
     
@@ -82,7 +82,7 @@ $(function(){
         event_pointer_auto()
         if(a == 0)
         {
-            window.location.replace("../index.html");
+            window.location.replace("./index.html");
         }
     
     })
@@ -157,12 +157,12 @@ $(function(){
         localStorage.removeItem("score")
         localStorage.removeItem("name")
         localStorage.setItem("score", 0)
-        window.location.replace("../index.html");
+        window.location.replace("./index.html");
     })
 
     $("#Play_again").on('click', () => {
         localStorage.removeItem("score")
         localStorage.setItem("score", 0)
-        window.location.replace("../question.html");    
+        window.location.replace("./question.html");    
     })
 })
