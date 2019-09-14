@@ -55,13 +55,15 @@
 }
 .time
 {
-    font-size: 27px;
+    font-size: 1em;
     color: var(--basic-color)
 }
 .totaltime{
     font-size: .5em;
 }
 .Quit{
+    font-size: 27px;
+    color: var(--basic-color);
     background-color: var(--quit-color);
     border-radius: 50em;
     
