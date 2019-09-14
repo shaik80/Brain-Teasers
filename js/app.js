@@ -11,8 +11,7 @@ $(function(){
         const keys = Object.keys(questions)
         // console.log(keys.length);
         let randIndex = Math.floor(Math.random()*(keys.length))
-        let quesno = "q"+randIndex;
-        let getques = questions[res] +quesno;
-        localStorage.setItem(quesno, JSON.stringify(getques));
+        // console.log(questions[res]);
+        console.log(localStorage.setItem(res, JSON.stringify(questions[key])))
     })
  }
