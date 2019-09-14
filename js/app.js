@@ -28,11 +28,10 @@ function startTimer() {
     }
   } 
 function start(index){
-    localStorage.getItem("name")
+   $("#user-name").html(localStorage.getItem("name"))
     $.getJSON('js/ques.json',function(json){
         questions = json;
     Object.keys(questions).length;        
-    
     // console.log("q"+index)
     $("#question").html(questions["q"+index].question);
     op1.html(questions["q"+index].options[0]);
