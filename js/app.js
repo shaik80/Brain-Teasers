@@ -171,6 +171,6 @@ $(function(){
     $("#Play_again").on('click', () => {
         localStorage.removeItem("score")
         localStorage.setItem("score", 0)
-        window.location.replace("./question.html");    
+        window.location.replace(".../question.html");    
     })
 })
