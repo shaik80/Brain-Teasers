@@ -7,7 +7,7 @@
 }
 .app-name{
     font-family: Roboto,sans-serif;    
-    font-size: 3em;
+    font-size: 2em;
     font-weight: 600;
 }
 .app-btn{
@@ -83,8 +83,6 @@
     font-weight: bold;
 }
 .score-box{
-    /* width: 653px;
-    height: 557px; */
     background: #28C3D4;
     border-radius: 70px;
 }
