@@ -150,7 +150,7 @@ $(function(){
 
     $("#submit-name").on('click', () => {
         localStorage.setItem("name", $(".info-name").val())
-        window.location.replace("../question.html");
+        window.location.replace("./question.html");
     })
 
     $("#End_game").on('click', () => {
