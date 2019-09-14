@@ -75,17 +75,17 @@ $(function(){
     
     })
 
-    $("#prev").on('click', () => {    
-        let a =parseInt(ques_no.html())-1
-        ques_no.html(a)
-        start(a);
-        event_pointer_auto()
-        if(a == 0)
-        {
-            window.location.replace("./index.html");
-        }
+    // $("#prev").on('click', () => {    
+    //     let a =parseInt(ques_no.html())-1
+    //     ques_no.html(a)
+    //     start(a);
+    //     event_pointer_auto()
+    //     if(a == 0)
+    //     {
+    //         window.location.replace("./index.html");
+    //     }
     
-    })
+    // })
 
     $(".op1").on('click', () => {
         if($("#op1").html() != $(".ans").html()){
