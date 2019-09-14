@@ -7,3 +7,5 @@ This application provides the user an opportunity to sharpen their web developme
 Each categories consist of 10 questions and 4 options will be provided for every question.
 
 Designed and Developed by:- Shaikh Muddassir and Roushan Raj
+
+![Alt text](https://github.com/shaik80/Brain-Teasers/blob/shaik/img/screenshot1.png?raw=true)
