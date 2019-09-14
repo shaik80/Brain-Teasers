@@ -81,27 +81,71 @@ $("#prev").on('click', () => {
 })
 
 function eventpointer(){
+
     $(".op1").css("pointerEvents" , "none");
     $(".op2").css("pointerEvents" , "none");
     $(".op3").css("pointerEvents" , "none");
     $(".op4").css("pointerEvents" , "none");
+
 }
-$(".op1").on('click', (v) => {
-    $(".op1").css( "background-color","#ef5350" );
-    event_pointer_none()
+$(".op1").on('click', () => {
+    $.getJSON('js/ques.json',function(json){
+        questions = json;
+    Object.keys(questions).length;       
+    if(    $(".op1").html() == questions["q"+index].options[0]){
+        $(".op1").css( "background-color","#ef5350" );
+    }
+    else{
+    $(".op1").css( "background-color","#66BB6A" );
+     }
+     event_pointer_none()
+})
+
 
 })
-$(".op2").on('click', (v) => {
+$(".op2").on('click', () => {
+    
     $(".op2").css( "background-color","#ef5350" );
-    event_pointer_none()
+    $.getJSON('js/ques.json',function(json){
+        questions = json;
+    Object.keys(questions).length;       
+    if( $(".op2").html() == questions["q"+index].answer){
+        $(".op2").css( "background-color","#ef5350" );
+    }
+    else{
+    $(".op2").css( "background-color","#66BB6A" );
+     }
+     event_pointer_none()
 })
-$(".op3").on('click', (v) => {
+  
+})
+$(".op3").on('click', () => {
     $(".op3").css( "background-color","#ef5350" );
-    event_pointer_none()
+    $.getJSON('js/ques.json',function(json){
+        questions = json;
+    Object.keys(questions).length;       
+    if(    $(".op3").html() == questions["q"+index].answer){
+        $(".op3").css( "background-color","#ef5350" );
+    }
+    else{
+    $(".op3").css( "background-color","#66BB6A" );
+     }
+     event_pointer_none()
 })
-$(".op4").on('click', (v) => {
+})
+$(".op4").on('click', () => {
     $(".op4").css( "background-color","#ef5350" );
-    event_pointer_none()    
+    $.getJSON('js/ques.json',function(json){
+        questions = json;
+    Object.keys(questions).length;       
+    if(    $(".op4").html() == questions["q"+index].answer){
+        $(".op4").css( "background-color","#ef5350" );
+    }
+    else{
+    $(".op4").css( "background-color","#66BB6A" );
+     }
+     event_pointer_none()
+})
 })  
 
     $("#submit-name").on('click', () => {
