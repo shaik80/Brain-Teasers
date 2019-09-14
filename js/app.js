@@ -69,7 +69,7 @@ $(function(){
         event_pointer_auto()
         if(a == 11)
         {
-            window.location.replace("./https://shaik80.github.io/Brain-Teasers/score.html");
+            window.location.replace(".score.html");
             $("#score").html(score)
         }
     
