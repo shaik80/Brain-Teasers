@@ -98,8 +98,439 @@
                     "italics()"
                 ],
                 "answer": "italics()"
-            }
+            },
+    
+     "q11": {
+                "question": "Which of the following property is used to set the width of an image border?",
+                "options": [
+                    "border",
+                    "height",
+                    "width",
+                    "moz-opacity"
+                ],
+                "answer": "border"
+            },
 
+     "q12": {
+                "question": "Which of the following property serves as shorthand for the marker properties?",
+                "options": [
+                    "list-style-type",
+                    "list-style-position",
+                    "list-style-image",
+                    "list-style"
+                ],
+                "answer": "list-style"
+            },
+     "q13": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+     "q14": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+     "q15": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+     "q16": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+     "q17": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+      "q18": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+      "q19": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+      "q20": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+      "q21": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+      "q22": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
+            "q11": {
+                "question": "",
+                "options": [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "answer": ""
+            },
 
         
 
