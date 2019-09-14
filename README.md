@@ -8,7 +8,7 @@ Each categories consist of 10 questions and 4 options will be provided for every
 
 Designed and Developed by:- Shaikh Muddassir and Roushan Raj
 
-#Screenshots
+# Screenshots
 
 ![Alt text](https://github.com/shaik80/Brain-Teasers/blob/shaik/img/screenshot1.png?raw=true)
 ![Alt text](https://github.com/shaik80/Brain-Teasers/blob/shaik/img/screenshot2.png?raw=true)
