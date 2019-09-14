@@ -49,22 +49,14 @@ $(function(){
 
     // make event pointer none
     function event_pointer_none(){
-        $(".op1").css("pointerEvents" , "none");
-        $(".op2").css("pointerEvents" , "none");
-        $(".op3").css("pointerEvents" , "none");
-        $(".op4").css("pointerEvents" , "none");
+        $(".op1,.op2,.op3,.op4").css("pointerEvents" , "none");
     }
 
     // make event pointer auto
     function event_pointer_auto(){
-        $(".op1").css("pointerEvents" , "auto");
-        $(".op1").css( "background-color","#aee7e8" );
-        $(".op2").css("pointerEvents" , "auto");
-        $(".op2").css( "background-color","#aee7e8" );
-        $(".op3").css("pointerEvents" , "auto");
-        $(".op3").css( "background-color","#aee7e8" );
-        $(".op4").css("pointerEvents" , "auto");
-        $(".op4").css( "background-color","#aee7e8" );
+        $(".op1,.op2,.op3,.op4").css("pointerEvents" , "auto");
+        $(".op1,.op2,.op3,.op4").css( "background-color","#aee7e8" );
+        $("").css("pointerEvenound-color","#aee7e8" );
     }
 
 
@@ -171,6 +163,6 @@ $(function(){
     $("#Play_again").on('click', () => {
         localStorage.removeItem("score")
         localStorage.setItem("score", 0)
-        window.location.replace(".../question.html");    
+        window.location.replace("../question.html");    
     })
 })
