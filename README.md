@@ -6,7 +6,7 @@ This application provides the user an opportunity to sharpen their web developme
 
 Each categories consist of 10 questions and 4 options will be provided for every question.
 
-Designed and Developed by:- Shaikh Muddassir and Roushan Raj
+Designed and Developed by:- [Shaikh Muddassir](https://github.com/shaik80/) and [Roushan Raj](https://github.com/ROUSHAN656)
 
 # Screenshots
 
