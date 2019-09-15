@@ -137,20 +137,21 @@ $(function(){
         event_pointer_none()
     })
 
+    
+    // $( "div span:first-child" )
+    // .css( "text-decoration", "underline" )
+    // .hover(function() {
+    //   $( this ).addClass( "sogreen" );
+    // }, function() {
+    //   $( this ).removeClass( "sogreen" );
+    // });
+
     $("#submit-name").on('click', () => {
         localStorage.setItem("name", $(".info-name").val())
         window.location.replace("./question.html");
     })
 
 
-    $( "div span:first-child" )
-    .css( "text-decoration", "underline" )
-    .hover(function() {
-      $( this ).addClass( "sogreen" );
-    }, function() {
-      $( this ).removeClass( "sogreen" );
-    });
-  </script>
   
 
     $("#End_game").on('click', () => {
