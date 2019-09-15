@@ -142,6 +142,17 @@ $(function(){
         window.location.replace("./question.html");
     })
 
+
+    $( "div span:first-child" )
+    .css( "text-decoration", "underline" )
+    .hover(function() {
+      $( this ).addClass( "sogreen" );
+    }, function() {
+      $( this ).removeClass( "sogreen" );
+    });
+  </script>
+  
+
     $("#End_game").on('click', () => {
         localStorage.removeItem("score")
         localStorage.removeItem("name")
