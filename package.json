@@ -1,0 +1,26 @@
+{
+  "name": "brain-teasers",
+  "version": "1.0.0",
+  "description": "This application based on quiz game",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaik80/Brain-Teasers.git"
+  },
+  "author": "Shaik Mudassir, Roshan Raj",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaik80/Brain-Teasers/issues"
+  },
+  "homepage": "https://github.com/shaik80/Brain-Teasers#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "mongoose": "^5.7.1"
+  }
+}

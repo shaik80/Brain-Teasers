@@ -1,0 +1,31 @@
+<a href="/addoredit" class="btn btn-info">Add Question</a>
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Question</th>
+      <th scope="col">Opt1</th>
+      <th scope="col">Opt2</th>
+      <th scope="col">Opt3</th>
+      <th scope="col">Opt4</th>
+      <th scope="col">Answer</th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+      {{#each list}}
+
+    <tr>
+      <th>{{this.Question}}</th>
+      <td>{{this.Opt1}}</td>
+      <td>{{this.Opt2}}</td>
+      <td>{{this.Opt3}}</td>
+      <td>{{this.Opt4}}</td>
+      <td>{{this.Answer}}</td>
+      <td>
+          {{!-- <a href="/employee/{{this._id}}">edit</a> --}}
+          <a href="/delete/{{this._id}}" onclick="return confirm('Are u sure do u want to delete')">delete</a>
+      </td>
+    </tr>
+    {{/each}}
+  </tbody>
+</table>
