@@ -37,7 +37,6 @@ $(function(){
             questions = json;
             Object.keys(questions).length;
 
-
             $("#question").html(questions["q"+index].question);
             op1.html(questions["q"+index].options[0]);
             op2.html(questions["q"+index].options[1]);
@@ -46,6 +45,18 @@ $(function(){
             $(".ans").html(questions["q"+index].answer)
         })
     }
+
+
+    //ajax call
+    // function ajaxcall(){
+    //     $.ajax({
+    //         type:'GET',
+    //         url:'/',
+    //         success:function(index){
+    //             $.each()
+    //         }
+    //     })
+    // }
 
 
     // make event pointer none
@@ -138,23 +149,12 @@ $(function(){
         event_pointer_none()
     })
 
-    
-    // $( "div span:first-child" )
-    // .css( "text-decoration", "underline" )
-    // .hover(function() {
-    //   $( this ).addClass( "sogreen" );
-    // }, function() {
-    //   $( this ).removeClass( "sogreen" );
-    // });
 
     $("#submit-name").on('click', () => {
         localStorage.setItem("name", $(".info-name").val())
         window.location.replace("./question.html");
     })
-
-
   
-
     $("#End_game").on('click', () => {
         localStorage.removeItem("score")
         localStorage.removeItem("name")
