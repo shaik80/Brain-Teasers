@@ -21,6 +21,7 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
+    "heroku-run-log-tails": "^3.5.10",
     "mongoose": "^5.7.1"
   }
 }
