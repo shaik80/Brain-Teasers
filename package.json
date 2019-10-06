@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "This application based on quiz game",
   "main": "server.js",
+  "engines": {
+    "node": "10.16.3",
+    "npm": "6.9.0"
+  },
   "scripts": {
     "main": "node server.js"
   },
