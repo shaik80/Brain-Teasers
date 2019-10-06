@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 let Question = mongoose.model('Question');
 
 router.get('/',(req,res) =>{
-    res.render("question/index")
+    res.redirect("question/index")
 });
 
 
