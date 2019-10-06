@@ -1,3 +1,4 @@
+web: npm install models --save
 web: npm -i cors
 web: npm -i express-handlebars
 web: npm -i body-parser
