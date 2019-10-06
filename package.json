@@ -4,11 +4,11 @@
   "description": "This application based on quiz game",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://git.heroku.com/brain-teasers.git"
+    "url": "git+https://github.com/shaik80/Brain-Teasers.git"
   },
   "author": "Shaik Mudassir, Roshan Raj",
   "license": "ISC",
