@@ -1,1 +1,4 @@
+web: npm -i -s cors
+web: npm -i -s express-handlebars
+web: npm -i -s body-parser
 web: npm main
