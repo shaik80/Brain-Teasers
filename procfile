@@ -1,5 +1,1 @@
-web: npm install models --save
-web: npm -i cors
-web: npm -i express-handlebars
-web: npm -i body-parser
-web: npm Start
+web: node app.js
