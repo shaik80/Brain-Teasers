@@ -2,30 +2,31 @@ const express = require('express');
 let router = express();
 const mongoose = require('mongoose');
 let Question = mongoose.model('Question');
+const {ensureAuthenticated} = require('../helpers/auth');
 
-router.get('/',(req,res) =>{
+router.get('/', ensureAuthenticated,  (req,res) =>{
     res.render("question/index")
 });
 
 
 
-router.post('/instruction',(req,res) =>{
+router.post('/instruction', ensureAuthenticated,  (req,res) =>{
     res.render("question/instruction")
 });
 
-router.post('/info',(req,res) =>{
+router.post('/info', ensureAuthenticated,  (req,res) =>{
     res.render("question/info")
 });
 
-router.get('/question',(req,res) =>{
+router.get('/question', ensureAuthenticated,  (req,res) =>{
     res.render("question/question")
 });
 
-router.get('/addoredit',(req,res) =>{
+router.get('/addoredit', ensureAuthenticated,  (req,res) =>{
     res.render('question/addoredit')
 })
 
-router.post('/list',(req,res) =>{
+router.post('/list', ensureAuthenticated,  (req,res) =>{
     let question =new Question()
     question.Question = req.body.Question;
     question.Opt1 = req.body.Opt1;
@@ -51,7 +52,7 @@ router.post('/list',(req,res) =>{
 
 
 
-router.get('/list',(req,res) =>{
+router.get('/list', ensureAuthenticated,  (req,res) =>{
     // res.json("form list")
     Question.find((err,docs) =>{
         if(!err){
@@ -65,7 +66,7 @@ router.get('/list',(req,res) =>{
     })
 });
 
-router.get('/delete/:id',(req,res) => {
+router.get('/delete/:id',  ensureAuthenticated,  (req,res) => {
     Question.findByIdAndDelete(req.params.id,(err,docs) =>{
         if(!err){
             res.redirect('/list');
@@ -73,15 +74,15 @@ router.get('/delete/:id',(req,res) => {
     })
 })
 
-router.get('/questions',async (req,res)=>{
+router.get('/questions',  ensureAuthenticated, async (req,res)=>{
     try{
         const ques = await Question.find();
-        res.json(ques) 
     }
     catch(err){
         res.json(err)
     }
 });
+
 
 
 module.exports = router; 

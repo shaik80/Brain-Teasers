@@ -5,11 +5,14 @@
     --secoundry-color:#AEE7E8;
     --quit-color: #EF5350;
 }
+.login-reg-img{
+    width: 50%;
+}
 .app-name{
     font-family: Roboto,sans-serif;    
     font-size: 3em;
     font-weight: 600;
-    color: var(--primary-color)
+    color: var(--primary-color);
 }
 .app-btn{
     font-size: 1.5em;
@@ -48,7 +51,7 @@
     font-size: 2em;
 }
 .ques-fixed-bottom{
-    background-color: var(--primary-color)
+    background-color: var(--primary-color);
 }
 .fa-icon{
     font-size: 3em;
@@ -57,7 +60,7 @@
 .time
 {
     font-size: 1em;
-    color: var(--basic-color)
+    color: var(--basic-color);
 }
 .totaltime{
     font-size: .5em;
@@ -97,8 +100,8 @@
     width: 50em;
 }
 
-@media only screen (max-width: 200px) {
+/* @media only screen (max-width: 200px) {
     .info-size{
         width: none;
     }   
-}
+} */

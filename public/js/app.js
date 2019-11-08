@@ -47,7 +47,7 @@ $(function(){
             $(".ans").html(questions[index].Answer)
         })
     }
-
+n
 
     // make event pointer none
     function event_pointer_none(){
