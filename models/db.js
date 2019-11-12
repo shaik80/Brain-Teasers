@@ -7,5 +7,5 @@ mongoose.connect(
     else { console.log("db connection error " + err)}
 })
 
-require('./question.model')
+require('./Question.model')
 require('./User.model')
